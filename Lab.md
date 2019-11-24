@@ -116,9 +116,7 @@ If you already have a version of Node.js that is compatible with the environment
 
     Note that the LTS version is currently 12.x so you will need to navigate further into the site to find the appropriate installer.
 
-1. Select **Downloads** from the top menu navigation.
-
-1. Select **Downloads** from the top menu navigation then scroll to the bottom of the page and select **Previous Releases**
+1. Select **Downloads** from the top menu navigation then scroll to the bottom of the page and select **Previous Releases**.
 
     ![Screenshot of the Downloads page](./Images/ex02-installnode-02.png)
 
