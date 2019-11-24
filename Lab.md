@@ -114,9 +114,9 @@ If you already have a version of Node.js that is compatible with the environment
 
 1. Open a browser and navigate to the Node.js Foundation site: https://www.nodejs.org.
 
-1. Select **Downloads** from the top menu navigation.
-
     Note that the LTS version is currently 12.x so you will need to navigate further into the site to find the appropriate installer.
+
+1. Select **Downloads** from the top menu navigation.
 
 1. Select **Downloads** from the top menu navigation then scroll to the bottom of the page and select **Previous Releases**
 
