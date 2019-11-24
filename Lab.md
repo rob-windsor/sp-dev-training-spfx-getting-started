@@ -28,7 +28,7 @@ In this exercise you will configure your SharePoint environment to be ready for 
 
     > Replace the text `{{REPLACE_WITH_YOUR_TENANTID}}` in the above URL with the unique prefix for your Office 365 tenant.
 
-1. Select **Classic features** in the left-hand navigation.
+1. Select **More features** in the left-hand navigation.
 
     ![Screenshot of the new SharePoint Admin Center](./Images/ex01-appcatalog-05.png)
 
@@ -108,17 +108,27 @@ The tools used in compiling, debugging and packaging SharePoint Framework projec
 > node -v
 > ```
 >
-> If a version number is returned, you already have Node. The SharePoint Framework build toolchain is tested and supported against the 8.x and 10.x LTS versions. So, if you have version 10.x you do not need to download and install a newer version. If you have version 9.x you should install the current LTS version. If you have version 8.x you have the option to keep the current version or install the current LTS version. Finally, if you have  version 7.x or earlier you should install the current LTS version.
+> If a version number is returned, you already have Node. The version(s) of Node.js you may use depends on the environment(s) you will be targeting. If you will be targeting SharePoint Server 2016, you must use Node.js version 8.x. If you will be targeting SharePoint Server 2019 or SharePoint Online, then you can use either Node.js version 8.x or Node.js version 10.x. 
 
-If you do not need to install the current LTS version of Node then skip to the next section.
+If you already have a version of Node.js that is compatible with the environment(s) you will be targeting, then skip to the next section.
 
 1. Open a browser and navigate to the Node.js Foundation site: https://www.nodejs.org.
 
 1. Select **Downloads** from the top menu navigation.
 
-1. Select LTS and then select the installer for your developer environment. Both Windows and macOS installers are available. This page contains options for additional installs as well such as SunOS, Linux, AIX and even source code downloads.
+    Note that the LTS version is currently 12.x so you will need to navigate further into the site to find the appropriate installer.
 
-    ![Screenshot of the Node.js](./Images/ex02-installnode-01.png)
+1. Select **Downloads** from the top menu navigation then scroll to the bottom of the page and select **Previous Releases**
+
+    ![Screenshot of the Downloads page](./Images/ex02-installnode-02.png)
+
+1. In the Previous Releases page, select Node.js 8.x if you will be targeting SharePoint Server 2016 or Node.js 10.x if you will be targeting SharePoint Server 2019 or SharePoint Online.
+
+    ![Screenshot of the Previous Releases page](./Images/ex02-installnode-03.png)
+
+1. Select the appropriate installer or binary for the platorm you are using.
+
+    ![Screenshot of the Node.js 10.x page](./Images/ex02-installnode-04.png)
 
 1. Run the installer to install Node.js and the included version of NPM (*a package manager that Node.js uses, similar to .NET's NuGet*).
 
