@@ -245,7 +245,7 @@ Use the tools installed in exercise 2 to create a new SharePoint Framework compo
 
     ![Screenshot of the SharePoint Workbench](./Images/ex03-testing-01.png)
 
-1. Wait about 15 seconds for the process described above to complete, then select the web part icon button to open the list of available web parts.
+1. Select the web part icon button to open the list of available web parts.
 
     ![Screenshot of adding the HelloWorld web part](./Images/ex03-testing-02.png)
 
