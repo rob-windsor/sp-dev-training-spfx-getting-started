@@ -81,7 +81,7 @@ In this exercise you will configure your SharePoint environment to be ready for 
 
     ![Screenshot of the other options panel](./Images/ex01-newsitecollection-03.png)
 
-> NOTE: After a few minutes the site collection will be created. On the **SharePoint Admin Center** site, select the **Sites > Active Sites** item in the left-hand navigation. You will see a list of all *classic* and *modern* sites including the **Developer site** that you just created.
+> NOTE: After a minute or two the site collection will be created. On the **SharePoint Admin Center** site, select the **Sites > Active Sites** item in the left-hand navigation. You will see a list of all *classic* and *modern* sites including the **Developer site** that you just created.
 >
 > ![Screenshot of the SharePoint Admin Center site collection list](./Images/ex01-newsitecollection-04.png)
 
