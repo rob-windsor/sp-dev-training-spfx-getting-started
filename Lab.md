@@ -208,7 +208,7 @@ In this exercise you will add and interact with SharePoint Framework based clien
 
 Use the tools installed in exercise 2 to create a new SharePoint Framework component and test it in the local developer environment.
 
-1. Open a command prompt and change to the folder where you want to create the project.
+1. Open a command prompt and change to an empty folder where you want to store the files for the project.
 1. Run the SharePoint Yeoman generator by executing the following command:
 
     ```shell
@@ -229,7 +229,13 @@ Use the tools installed in exercise 2 to create a new SharePoint Framework compo
 
     After provisioning the folders required for the project, the generator will install all the dependency packages using NPM.
 
-1. When NPM completes downloading all dependencies, run the project by executing the following command:
+1. When NPM completes downloading all dependencies, install the developer certificate by executing the following command:
+
+    ```shell
+    gulp trust-dev-cert
+    ```
+
+1. Run the project by executing the following command:
 
     ```shell
     gulp serve
@@ -239,7 +245,7 @@ Use the tools installed in exercise 2 to create a new SharePoint Framework compo
 
     ![Screenshot of the SharePoint Workbench](./Images/ex03-testing-01.png)
 
-1. Select the web part icon button to open the list of available web parts.
+1. Wait about 15 seconds for the process described above to complete, then select the web part icon button to open the list of available web parts.
 
     ![Screenshot of adding the HelloWorld web part](./Images/ex03-testing-02.png)
 
